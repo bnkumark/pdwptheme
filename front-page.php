@@ -1,3 +1,4 @@
+<div class="menu-align-center">
 <?php get_header(); 
 
 
@@ -5,10 +6,11 @@
 ?>
 
 </header> <!-- / END HOME SECTION  -->
+</div>
 <div class="home-header-wrap">
-<div class="header-content-wrap">
+<div class="header-content-wrap" style="background:#fff">
 <div class="container">
-<h1 class="intro-text" style="color:#039BE5">WELCOME TO POKEDOC</h1>
+<h3 class="intro-text" style="color:#039BE5;font-size:35px">WELCOME TO POKEDOC</h3>
 <div id="search" class="widget_search">
 
 				<?php get_search_form(); ?>
