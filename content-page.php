@@ -8,8 +8,8 @@
 
 <header class="entry-header">
 	<div class="col-md-12">
-<div class="col-md-2"></div>
-<div class="col-md-10" style="padding-left:0px">
+<div class="col-md-3"></div>
+<div class="col-md-9" style="padding-left:0px">
 	
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 	

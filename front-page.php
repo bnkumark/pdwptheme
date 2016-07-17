@@ -10,7 +10,7 @@
 <div class="home-header-wrap">
 <div class="header-content-wrap" style="background:#fff">
 <div class="container">
-<h3 class="intro-text" style="color:#039BE5;font-size:35px">WELCOME TO POKEDOC</h3>
+<h3 style="color:#039BE5;font-size:35px">Welcome to Pocket Doctor, search a disease</h3>
 <div id="search" class="widget_search">
 
 				<?php get_search_form(); ?>

@@ -32,7 +32,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
 	font-family: inherit;
-	font-size: 16px;
+	font-size: 20.8px;
 	font-style: inherit;
 	font-weight: inherit;
 	margin: 0;
@@ -137,7 +137,7 @@ padding-left: 0 !important;
 	color: #FFF;
 }
 a {
-	color: #e96656;
+	color: #039BE5;
 	-webkit-transition: all 700ms;
 	transition: all 700ms;
 }
@@ -3148,7 +3148,7 @@ article .posted-on a:hover{
 	margin-bottom: 0
 }
 .entry-content{
-	line-height: 20px;
+	line-height: 33.8px;
 }
 .list-post-top{
 	min-height: 130px;
