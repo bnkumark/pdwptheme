@@ -88,11 +88,11 @@
 						
 							if( file_exists(get_stylesheet_directory()."/images/logo.png")):
 							
-								echo '<h1 class="display-1" style="color:#039BE5;line-height:2">POCKET DOCTOR</h1>';
+								echo '<img src="'.get_stylesheet_directory_uri().'/images/logo.png" alt="'.get_bloginfo('title').'">';
 							
 							else:
 								
-								echo '<h1 class="display-1" style="color:#039BE5;line-height:2">POCKET DOCTOR</h1>';
+								echo '<img src="'.get_template_directory_uri().'/images/logo.png" alt="'.get_bloginfo('title').'">';
 								
 							endif;
 
