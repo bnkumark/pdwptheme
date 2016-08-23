@@ -8,9 +8,9 @@
 
 </div><!-- .site-content -->
 
-<footer id="footer" role="contentinfo">
+<!--<footer id="footer" role="contentinfo">
 
-<!-- <div class="container">
+ <div class="container">
 
 	<?php
 		$footer_sections = 0;
@@ -142,7 +142,7 @@
 
 </div> --> <!-- / END CONTAINER -->
 
-</footer> <!-- / END FOOOTER  -->
+<!--</footer>  / END FOOOTER  -->
 
 <?php wp_footer(); ?>
 

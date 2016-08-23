@@ -16,6 +16,13 @@
 				<?php get_search_form(); ?>
 
 			</div> 
+<div>
+<br>
+<br>
+<br>
+<?php echo do_shortcode('[ajax_load_more post_type="page"]');
+?>
+ </div>
 </div>
 </div>
 </div>
