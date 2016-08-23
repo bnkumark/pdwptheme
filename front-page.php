@@ -8,17 +8,16 @@
 </header> <!-- / END HOME SECTION  -->
 </div>
 <div class="home-header-wrap">
-<div class="header-content-wrap" style="background:#fff">
+<div style="background:#fff">
 <div class="container">
-<h3 style="color:#039BE5;font-size:35px">Welcome to Pocket Doctor, search a disease</h3>
-<div id="search" class="widget_search">
+<br>
+<h3 style="color:#039BE5;font-size:35px">Top articles on Pocket Doctor...</h3>
+<!--<div id="search" class="widget_search">
 
 				<?php get_search_form(); ?>
 
-			</div> 
+			</div> -->
 <div>
-<br>
-<br>
 <br>
 <?php echo do_shortcode('[ajax_load_more post_type="page"]');
 ?>

@@ -55,7 +55,7 @@
 
 		<div class="container-fluid">
 
-			<div class="navbar-header responsive-logo">
+			<div class="responsive-logo">
 
 			<!-- 	commenting the menu icon in mobile
 			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"> 
@@ -78,7 +78,7 @@
 
 					if(isset($zerif_logo) && $zerif_logo != ""):
 
-						echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand">';
+						echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand navbar-left">';
 
 							echo '<h1 class="display-1" style="color:#039BE5;line-height:2">POCKET DOCTOR</h1>';
 
@@ -86,7 +86,7 @@
 
 					else:
 
-						echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand">';
+						echo '<a href="'.esc_url( home_url( '/' ) ).'" class="navbar-brand navbar-left">';
 						
 							if( file_exists(get_stylesheet_directory()."/images/logo.png")):
 							
@@ -105,11 +105,11 @@
 				?>
 
 			</div>
-<!-- <div id="search" class="navbar-brand widget_search navbar-right">
+<div id="search" class="navbar-brand widget_search navbar-right">
 
 				<?php get_search_form(); ?>
 
-			</div> -->
+			</div>
 			<!-- <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation"   id="site-navigation">
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'zerif-lite' ); ?></a>
 				<?php wp_nav_menu( array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-right responsive-nav main-nav-list', 'fallback_cb'     => 'zerif_wp_page_menu')); ?>
