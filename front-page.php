@@ -11,8 +11,8 @@
 <div style="background:#fff">
 <div class="container">
 <br>
-<h3 style="color:#039BE5;font-size:35px">Top articles on Pocket Doctor...</h3>
-<!--<div id="search" class="widget_search">
+<!--<h3 style="color:#039BE5;font-size:35px">Top articles on Pocket Doctor...</h3>
+<div id="search" class="widget_search">
 
 				<?php get_search_form(); ?>
 

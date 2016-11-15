@@ -46,11 +46,10 @@ get_header(); ?>
 
 		</div><!-- .content-left-wrap -->
 
-		<div class="sidebar-wrap col-md-3 content-left-wrap">
+		<!--<div class="sidebar-wrap col-md-3 content-left-wrap">
 
 			<?php get_sidebar(); ?>
 
-		</div><!-- .sidebar-wrap -->
 
 	</div><!-- .container -->
 
